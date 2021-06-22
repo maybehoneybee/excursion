@@ -22,9 +22,10 @@ body {
 video {
     width: 50%;
     height: auto;
+
   }
   .flex-container {
-    height: 50%;;
+    height: 50%;
     display: flex;
     flex-direction: column;
   }
@@ -32,4 +33,32 @@ video {
     padding: 1em;
     width: 50;
     flex-basis: 50%;
+  }
+
+  .info-header {
+    font-size: 42px;
+    font-weight:300;
+  }
+
+  .info-content {
+    font-size: 21px;
+    color: gray;
+  }
+
+  img {
+    margin-bottom: 40px;
+    margin-top: 40px;
+
+  }
+
+  .coming-soon {
+    font-size: 42px;
+    font-weight:300;
+  }
+
+  .copyright {
+    font-size: 21px;
+    color: gray;
+    text-align: right;
+    
   }
